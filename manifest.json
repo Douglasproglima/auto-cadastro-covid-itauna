@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "AutoCadastroCovidItauna",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://vacina.mgdata.com.br/cadastro_9_12_posto_coronavac/index.php",
+                "https://vacina.mgdata.com.br/cadastro_9_12_posto_coronavac/index.php"
+            ],
+            "js": ["App.js"]
+        }
+    ]
+}
